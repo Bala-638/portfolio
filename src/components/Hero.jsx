@@ -1,4 +1,5 @@
 import { FiCode, FiSmartphone, FiMapPin } from 'react-icons/fi'
+import profileImage from "../assets/images/profile-2.png"
 
 export default function Hero() {
   return (
@@ -40,9 +41,10 @@ export default function Hero() {
           <div className="hero-portrait-wrap">
             <div className="hero-blob" aria-hidden="true" />
             <div className="hero-portrait">
-              {/* Replace with your professional portrait, e.g. */}
-                  <img src="/src/assets/images/profile-2.png" alt="Portrait of Bala, web developer" />
-              {/* <span>Add your portrait photo here</span> */}
+              <img
+                src={profileImage}
+                alt="Portrait of Bala, web developer"
+              />
             </div>
 
             <div className="hero-float hero-float-1">
